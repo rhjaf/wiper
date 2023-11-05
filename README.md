@@ -10,10 +10,10 @@ This tool, will be started as system boots up and then Automatically will detect
 - python and udev package for it
 
 ### Installation
-1. copy `usb_detect.service` to `/lib/systemd/system/usb_detect.service`
+1. Copy `usb_detect.service` to `/lib/systemd/system/usb_detect.service`
 2. Edit `User`, `ExecStart`, and `Environment` according to your configs
-3. copy other two scripts to your Desktop
-4. 
+3. Copy other two scripts to your Desktop
+4. Run 
 ```bash
 sudo systemctl enable usb_detect.service --now
 sudo systemctl daemon-reload
